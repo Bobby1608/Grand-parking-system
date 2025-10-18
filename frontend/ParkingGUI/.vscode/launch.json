@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch MainDashboard",
+            "request": "launch",
+            "mainClass": "com.parking.MainDashboard",
+            "projectName": "ParkingGUI",
+            "requestTimeout": 15000, // <-- ADD THIS LINE
+            "vmArgs": "--module-path \"C:\\dev\\javafx-sdk-21.0.3\\lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
