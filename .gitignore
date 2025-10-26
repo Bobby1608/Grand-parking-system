@@ -1,0 +1,17 @@
+# Ignore IDE settings
+.vscode/
+
+# Ignore C++ compiled files
+*.exe
+*.o
+*.obj
+
+# Ignore Java compiled files
+*.class
+
+# Ignore build directories
+bin/
+out/
+
+# Ignore libraries and dependencies
+javafx_lib/

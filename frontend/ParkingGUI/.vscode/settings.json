@@ -3,5 +3,16 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
+    ],
+    // Recommended VS Code Java runtime configuration for Java 21 (LTS).
+    // Replace the "path" value below with the actual installation path of your JDK21.
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-21",
+            "default": true
+        }
     ]
+    // Optionally set a specific Java home (uncomment and set your path):
+    // "java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-21"
 }
